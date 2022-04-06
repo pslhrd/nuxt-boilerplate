@@ -16,25 +16,25 @@ const assets = {
   "/_nuxt/entry-fa2a2d3b.mjs": {
     "type": "application/javascript",
     "etag": "\"1d82e-ChNwcnJkBh2ZskeLszm62Wqc7O0\"",
-    "mtime": "2022-04-06T21:23:16.918Z",
+    "mtime": "2022-04-06T21:24:05.413Z",
     "path": "../public/_nuxt/entry-fa2a2d3b.mjs"
   },
   "/_nuxt/entry.5ee2392a.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"2472-Flzp2aPTkxrRdTvM9k/h0v8xwaI\"",
-    "mtime": "2022-04-06T21:23:16.916Z",
+    "mtime": "2022-04-06T21:24:05.412Z",
     "path": "../public/_nuxt/entry.5ee2392a.css"
   },
   "/_nuxt/index-1823de4d.mjs": {
     "type": "application/javascript",
     "etag": "\"139-0sYEgBJU2Cov7xsnt/iZzB6hkaA\"",
-    "mtime": "2022-04-06T21:23:16.915Z",
+    "mtime": "2022-04-06T21:24:05.411Z",
     "path": "../public/_nuxt/index-1823de4d.mjs"
   },
   "/_nuxt/manifest.json": {
     "type": "application/json",
     "etag": "\"1c1-3aK9kYPhka4I5523h3LG2KSsVbg\"",
-    "mtime": "2022-04-06T21:23:16.914Z",
+    "mtime": "2022-04-06T21:24:05.410Z",
     "path": "../public/_nuxt/manifest.json"
   }
 };
@@ -51,7 +51,7 @@ function getAsset (id) {
 
 const METHODS = ["HEAD", "GET"];
 const TWO_DAYS = 2 * 60 * 60 * 24;
-const STATIC_ASSETS_BASE = "/_nuxt/Users/paulsoulhiard/Desktop/DEV/nuxt-boilerplate/dist" + "/" + "1649280193";
+const STATIC_ASSETS_BASE = "/_nuxt/Users/paulsoulhiard/Desktop/DEV/nuxt-boilerplate/dist" + "/" + "1649280242";
 async function serveStatic(req, res) {
   if (!METHODS.includes(req.method)) {
     return;
