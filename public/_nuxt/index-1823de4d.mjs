@@ -1,0 +1,1 @@
+import{_ as t,c as n,o as s}from"./entry-fa2a2d3b.mjs";const _={setup(o,{expose:r}){r(),console.log("Hello !");const e={};return Object.defineProperty(e,"__isScriptSetup",{enumerable:!1,value:!0}),e}};function c(o,r,e,l,a,p){return s(),n("h1",null,"Hello World !")}var d=t(_,[["render",c]]);export{d as default};
