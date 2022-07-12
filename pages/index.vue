@@ -3,5 +3,6 @@
 </template>
 
 <script setup>
+  const { data } = await useAsyncData('products', () => GqlProducts({ first: 1 }))
   console.log('Hello !')
 </script>

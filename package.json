@@ -3,12 +3,14 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxi generate"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt": "npm:nuxt3@latest"
   },
   "dependencies": {
+    "nuxt-graphql-client": "^0.0.33",
     "sass": "^1.49.11",
     "sass-loader": "^12.6.0"
   }
