@@ -12,6 +12,7 @@
   "dependencies": {
     "nuxt-graphql-client": "^0.0.33",
     "sass": "^1.49.11",
-    "sass-loader": "^12.6.0"
+    "sass-loader": "^12.6.0",
+    "vite-plugin-glsl": "^0.3.0"
   }
 }

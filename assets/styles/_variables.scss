@@ -1,0 +1,24 @@
+
+$inOut: cubic-bezier(.35,.17,.25,1);
+$expo: cubic-bezier(0,0,0,1);
+$hover: cubic-bezier(.31,.03,.08,1);
+
+$power2: cubic-bezier(.2,0,0,1);
+
+$breakpoints: (
+    "phone-down": 500px,
+    "tablet-up": 768px,
+    "tablet-down": 900px,
+    "desktop-up": 1024px,
+    "desktop-down": 1280px,
+    "widescreen-up": 1440px,
+    "phone": 800px
+);
+
+@mixin wide-mobile {
+  @media (max-width: 800px) { @content; }
+}
+
+@mixin small-mobile {
+  @media (max-width: 500px) { @content; }
+}
